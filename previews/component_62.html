@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRDS Component Preview</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/krds-uiux/resources/css/common/common.css" />
+    <style>
+        body { margin: 0; padding: 24px; background-color: transparent; }
+    </style>
+</head>
+<body>
+<!-- text list -->
+<!-- krds-info-list -->
+<ul class="krds-info-list decimal">
+	<li>텍스트 목록 레벨1</li>
+	<li>
+		텍스트 목록 레벨1
+		<ul class="krds-info-list dash">
+			<li>텍스트 목록 레벨2</li>
+			<li>
+				텍스트 목록 레벨2
+				<ul class="krds-info-list hollow">
+					<li>텍스트 목록 레벨3</li>
+					<li>텍스트 목록 레벨3</li>
+				</ul>
+			</li>
+			<li>텍스트 목록 레벨2</li>
+		</ul>
+	</li>
+	<li>텍스트 목록 레벨1</li>
+</ul>
+
+<br>
+<br>
+
+<ul class="krds-info-list decimal">
+	<li>
+		텍스트 목록 레벨1
+		<ul class="krds-info-list dash">
+			<li>
+				텍스트 목록 레벨2
+				<ol class="krds-info-list ordered">
+					<li><span class="num">①</span>텍스트 목록 레벨3</li>
+					<li><span class="num">②</span>텍스트 목록 레벨3</li>
+				</ol>
+			</li>
+		</ul>
+	</li>
+	<li>
+		텍스트 목록 레벨1
+		<ol class="krds-info-list ordered">
+			<li>
+				<span class="num">a. </span>텍스트 목록 레벨2
+				<ul class="krds-info-list hollow">
+					<li>텍스트 목록 레벨3</li>
+					<li>텍스트 목록 레벨3</li>
+				</ul>
+			</li>
+		</ol>
+	</li>
+</ul>
+<!-- //krds-info-list -->
+<!-- //text list -->
+</body>
+</html>

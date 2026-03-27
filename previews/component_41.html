@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRDS Component Preview</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/krds-uiux/resources/css/common/common.css" />
+    <style>
+        body { margin: 0; padding: 24px; background-color: transparent; }
+    </style>
+</head>
+<body>
+<!-- radio button -->
+<div class="krds-check-area">
+	<div class="krds-form-chip">
+		<input type="radio" class="radio" name="rdo_chip" id="rdo_chip_1">
+		<label class="krds-form-chip-outline" for="rdo_chip_1">chip 상태 : default </label>
+	</div>
+	<div class="krds-form-chip">
+		<input type="radio" class="radio" name="rdo_chip" id="rdo_chip_2" checked>
+		<label class="krds-form-chip-outline" for="rdo_chip_2">chip 상태 : checked </label>
+	</div>
+	<div class="krds-form-chip">
+		<input type="radio" class="radio" name="rdo_chip" id="rdo_chip_3" disabled>
+		<label class="krds-form-chip-outline" for="rdo_chip_3">chip 상태 :disabled </label>
+	</div>
+</div>
+<!-- //radio button -->
+</body>
+</html>

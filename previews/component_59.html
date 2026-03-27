@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRDS Component Preview</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/krds-uiux/resources/css/common/common.css" />
+    <style>
+        body { margin: 0; padding: 24px; background-color: transparent; }
+    </style>
+</head>
+<body>
+<!-- text input -->
+<div class="fieldset">
+	<!-- 폼그룹 -->
+	<div class="form-group">
+		<div class="form-tit">
+			<label for="login_pw">레이블</label>
+		</div>
+		<div class="form-conts btn-ico-wrap">
+			<input type="password" id="login_pw" class="krds-input" placeholder="8-12자의 영문자, 숫자, 특수문자 조합" value="1234567890">
+			<button type="button" class="krds-btn medium icon">
+				<span class="sr-only">입력한 비밀번호 보기</span>
+				<i class="svg-icon ico-pw-visible"></i>
+			</button>
+		</div>
+	</div>
+	<!-- //폼그룹 -->
+	<!-- 폼그룹 -->
+	<div class="form-group">
+		<div class="form-tit">
+			<label for="login_pw2">레이블</label>
+		</div>
+		<div class="form-conts btn-ico-wrap">
+			<input type="text" id="login_pw2" class="krds-input" placeholder="8-12자의 영문자, 숫자, 특수문자 조합" value="1234567890">
+			<button type="button" class="krds-btn medium icon">
+				<span class="sr-only">입력한 비밀번호 가리기</span>
+				<i class="svg-icon ico-pw-visible-on"></i>
+			</button>
+		</div>
+	</div>
+	<!-- //폼그룹 -->
+	<!-- 폼그룹 -->
+	<div class="form-group">
+		<div class="form-tit">
+			<label for="form_delete">레이블</label>
+		</div>
+		<div class="form-conts btn-ico-wrap" data-delete="true">
+			<input type="text" id="form_delete" class="krds-input" placeholder="내용을 입력하세요">
+			<button type="button" class="krds-btn medium icon pure btn-delete-input">
+				<span class="sr-only">내용 삭제</span>
+				<i class="svg-icon ico-delete-fill"></i>
+			</button>
+		</div>
+	</div>
+	<!-- //폼그룹 -->
+	<!-- 폼그룹 -->
+	<div class="form-group">
+		<div class="form-tit">
+			<label for="form_btn_multiple">레이블</label>
+		</div>
+		<div class="form-conts btn-ico-wrap" data-delete="true">
+			<input type="password" id="form_btn_multiple" class="krds-input" placeholder="8-12자의 영문자, 숫자, 특수문자 조합" value="1234567890">
+			<div class="btn-group">
+				<button type="button" class="krds-btn medium icon pure btn-delete-input">
+					<span class="sr-only">내용 삭제</span>
+					<i class="svg-icon ico-delete-fill"></i>
+				</button>
+				<button type="button" class="krds-btn medium icon">
+					<span class="sr-only">입력한 비밀번호 보기</span>
+					<i class="svg-icon ico-pw-visible"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- //폼그룹 -->
+</div>
+<!-- //text input -->
+</body>
+</html>
