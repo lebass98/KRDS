@@ -137,7 +137,7 @@ HTML_TEMPLATE_START = """<!DOCTYPE html>
         }
         .card-header .badge {
             background: var(--badge-bg); color: var(--badge-text);
-            font-size: 0.75rem; padding: 4px 10px; border-radius: 20px; font-weight: 700; text-transform: uppercase;
+            font-size: 14px; padding: 4px 10px; border-radius: 20px; font-weight: 700; text-transform: uppercase;
         }
 
         .card-body { padding: 0 24px 24px 24px; display: flex; flex-direction: column; flex-grow: 1; cursor: pointer; }
@@ -150,7 +150,7 @@ HTML_TEMPLATE_START = """<!DOCTYPE html>
         }
         .card-iframe { width: 100%; height: 100%; border: none; pointer-events: none; }
         
-        .view-btn { text-align: right; color: var(--view-btn); font-weight: 600; font-size: 0.95rem; transition: color 0.2s; }
+        .view-btn { text-align: right; color: var(--view-btn); font-weight: 600; font-size: 14px; transition: color 0.2s; }
         .card-body:hover .view-btn { color: var(--view-btn-hover); text-decoration: underline; }
 
         footer { text-align: center; padding: 40px; color: var(--text-sub); font-size: 0.9rem; border-top: 1px solid var(--glass-border); margin-top: 40px; }
